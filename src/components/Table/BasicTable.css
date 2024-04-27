@@ -1,0 +1,20 @@
+.MuiTableCell-head {
+    /*color: white !important;*/
+    background-color: #F8F6E3;
+}
+
+.BasicTable-row-selected {
+    background-color: rgba(255, 0, 0, 0.1) !important;
+}
+
+.MuiDataGrid-columnSeparator {
+    visibility: visible !important;
+}
+
+.MuiDataGrid-booleanCell[data-value="false"] {
+    color: red !important;
+}
+
+.MuiDataGrid-booleanCell[data-value="true"] {
+    color: green !important;
+}
